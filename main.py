@@ -6,6 +6,6 @@ try:
 except ImportError:
     print("WARNING: Scarletio could not be imported! Performance may be degraded!")
 
-from computercraft import server
+from pythoncomputercraft.computercraft import server
 
 server.main()
